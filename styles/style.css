@@ -130,7 +130,7 @@
   justify-content: center;
   gap: 40px;
   list-style: none;
-  padding: 40px;
+  padding: 0;
   /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 }
 .card {
@@ -402,8 +402,8 @@
   margin: 0;
   padding-bottom: 32px;
 }
-.about__paragraph last-child {
-  padding-bottom: 32px;
+.about__paragraph:last-child {
+  padding-bottom: 0;
 }
 
 .about__circle {
