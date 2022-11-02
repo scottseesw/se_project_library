@@ -33,7 +33,7 @@
               <a href="#about" class="nav__link">About</a>
             </li>
             <li>
-              <a href="#footer" class="nav__link">Footer</a>
+              <a href="#footer" class="nav__link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -48,11 +48,9 @@
           alt="Illustration 'Inside the library'"
           class="header__image"
         />
-        -->
+
         <div class="header__footer">
-          <a href="#header__link" class="header__link"
-            >About the library &darr;</a
-          >
+          <a href="#" class="header__link">About the library &darr;</a>
           <p class="header__address">
             200 Success Avenue, The Town of Practicum
           </p>
@@ -167,24 +165,20 @@
               />
             </div>
             <div class="person person_name_cannon">
-              <p class="person__caption person__caption_cannon">
-                Annie Jump Cannon
-              </p>
               <img
                 src="images/person_cannon.png"
                 alt="Annie Jump Cannon image"
                 class="person__image person__image_size_m"
               />
+              <p class="person__caption">Annie Jump Cannon</p>
             </div>
             <div class="person person_name_mitchell">
-              <p class="person__caption person__caption_mitchell">
-                Maria Mitchell
-              </p>
               <img
                 src="images/person_mitchell.png"
                 alt="Maria Mitchell image"
                 class="person__image person__image_size_s"
               />
+              <p class="person__caption">Maria Mitchell</p>
             </div>
             <div class="person person_name_tarter">
               <p class="person__caption">Jill Tarter</p>
@@ -255,7 +249,7 @@
           </ul>
         </section>
         <section id="about" class="about">
-          <h2 id="header__link" class="about__title">About the library</h2>
+          <h2 class="about__title">About the library</h2>
           <div class="about__content">
             <p class="about__paragraph">
               Libraries are essential establishments in practically every city,
@@ -281,10 +275,13 @@
       <footer id="footer" class="footer">
         <div class="footer__columns">
           <div class="footer__column">
-            <img src="./images/logo.png" alt="logo" class="footer__logo" />
+            <img
+              src="./images/logo_practicum.svg"
+              alt="logo"
+              class="footer__logo"
+            />
           </div>
           <div class="footer__column footer__column_content_hours">
-            <div class="footer__column_content_hours"></div>
             <h2 class="footer__column-heading">Hours</h2>
             <ul class="footer__list">
               <li class="footer__list-item">Weekdays: 9am-8pm</li>
@@ -292,25 +289,27 @@
             </ul>
           </div>
           <div class="footer__column footer__column_content_social">
-            <div class="footer__column_content_social"></div>
             <h2 class="footer__column-heading">Social Media</h2>
             <ul class="footer__list">
-              <li class="footer__list-item"></li>
-              <a class="footer__column-link" href="#"
-                ><img
-                  class="footer__social-icon"
-                  src="images/facebook_white.svg"
-                  alt="Facebook Logo"
-                />Instagram</a
-              >
-              <li class="footer__list-item"></li>
-              <a class="footer__column-link" href="#"
-                ><img
-                  class="footer__social-icon"
-                  src="images/instagram_white.svg"
-                  alt="Instagram logo"
-                />Facebook_white
-              </a>
+              <li>
+                <a class="footer__column-link" href="#"
+                  ><img
+                    class="footer__social-icon footer__list-item"
+                    src="images/facebook_white.svg"
+                    alt="Facebook Logo"
+                  />Facebook</a
+                >
+              </li>
+
+              <li>
+                <a class="footer__column-link" href="#"
+                  ><img
+                    class="footer__social-icon footer__list-item"
+                    src="images/instagram_white.svg"
+                    alt="Instagram logo"
+                  />Instagram
+                </a>
+              </li>
             </ul>
           </div>
         </div>
